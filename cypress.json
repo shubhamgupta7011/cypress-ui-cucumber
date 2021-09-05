@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://react-redux.realworld.io",
+  "reporter": "cypress-multi-reporters",
+
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "./cypress/output/reports/mocha",
+      "quite": true,
+      "overwrite": true,
+      "html": false,
+      "json": true
+    }
+  },
+  "retries": { "runMode": 0, "openMode": 0 },
+  "watchForFileChanges": true,
+  "trashAssetsBeforeRuns": true,
+  "testFiles": "**/*.feature",
+  "downloadsFolder": "./cypress/output/downloads",
+  "videosFolder": "./cypress/output/videos",
+  "screenshotsFolder": "./cypress/output/screenshots"
+}
