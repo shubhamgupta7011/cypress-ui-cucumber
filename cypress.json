@@ -12,6 +12,14 @@
       "json": true
     }
   },
+
+  "env": {
+    "loglevel": "info",
+    "testenv": "pre1",
+    "lang": "en",
+    "username": "",
+    "password": ""
+  },
   "retries": { "runMode": 0, "openMode": 0 },
   "watchForFileChanges": true,
   "trashAssetsBeforeRuns": true,

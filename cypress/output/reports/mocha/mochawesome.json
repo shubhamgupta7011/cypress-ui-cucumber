@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-06-13T11:35:34.844Z",
-    "end": "2021-06-13T11:35:37.866Z",
-    "duration": 3022,
+    "start": "2022-01-15T10:44:52.441Z",
+    "end": "2022-01-15T10:44:57.419Z",
+    "duration": 4978,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "fac0c774-36b0-4a7a-a3ec-4f0399f924c7",
+      "uuid": "dd6c4810-5e88-4e0b-8dfb-a8d714616def",
       "title": "",
       "fullFile": "cypress/integration/feature/Login.feature",
       "file": "cypress/integration/feature/Login.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d6c5e178-f8ed-493d-9077-283e4dcff17e",
+          "uuid": "e13c0309-3bf8-4fc9-b074-289593b19e74",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Conduit Login",
               "fullTitle": "Login Conduit Login",
               "timedOut": null,
-              "duration": 2990,
+              "duration": 4881,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "60af5d6a-6d21-4396-8f89-6cf0c6fe7596",
-              "parentUUID": "d6c5e178-f8ed-493d-9077-283e4dcff17e",
+              "uuid": "e01c70fc-8c98-4eaa-8a1f-e251f9a89335",
+              "parentUUID": "e13c0309-3bf8-4fc9-b074-289593b19e74",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "60af5d6a-6d21-4396-8f89-6cf0c6fe7596"
+            "e01c70fc-8c98-4eaa-8a1f-e251f9a89335"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2990,
+          "duration": 4881,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -90,7 +90,7 @@
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "6.2.2"
+      "version": "6.3.1"
     },
     "marge": {
       "options": {
